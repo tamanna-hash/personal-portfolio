@@ -91,13 +91,14 @@ nav li:last-child a {
 
 .banner-description {
     color: #9ca1a9;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
+    margin-top: 50px;
 }
 
 .banner-description span {
     color: #DFD0B8;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 600;
 }
 
@@ -121,11 +122,24 @@ nav li:last-child a {
     color: #c2b39c;
     margin-bottom: 30px;
     padding-bottom: 5px;
-    border-bottom: 3px solid #DFD0B8;
-    border-radius: 50%;
+
 }
+
 .banner-title span {
     color: #e2d5c0;
+}
+
+.border {
+    border-bottom: 3px solid #DFD0B8;
+    border-radius: 50%;
+    margin-left: -50px;
+    margin-top: -105px;
+    margin-bottom: 40px;
+    font-size: 41px;
+}
+
+.border h2 {
+    visibility: hidden;
 }
 
 .icon {
